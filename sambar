@@ -1,0 +1,18 @@
+#<sambar>
+<create_screen>
+<create_Cls_button>
+<create_Min_button>
+<create_max_button>
+<create_tab_bar>
+<create_serials>3<.create_serials>
+<option>Main<.option>
+<option>side<.option>
+<option>click<.option>
+<create_sub_option>
+<option>Main<.option>
+	<soption>register<.soption>
+	<soption>hustle<.soption>
+<option>side<.option>
+	<soption>smasm<.soption>
+	<soption>massd<.soption>
+
