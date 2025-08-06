@@ -11,6 +11,6 @@ public static void main(String[] args){
 
 public class AssHole{
          int b=123;
-         int c=456;
+         int c=123;
 }
 
