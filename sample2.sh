@@ -7,3 +7,5 @@ if [ $test -eq 1 ];then
 else
 	echo "yuge hyukke"
 fi
+
+asmasm

@@ -8,6 +8,8 @@ int main()
 
 	c = a + b;
 	printf(" c is %d\n", c);
+	scanf(%s,c);
 	return 0;
+
 }
 
