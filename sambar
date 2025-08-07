@@ -7,7 +7,7 @@
 <create_serials>3<.create_serials>
 <option>Main<.option>
 <option>side<.option>
-<option>click<.option>
+<option>SMASS<.option>
 <create_sub_option>
 <option>Main<.option>
 	<soption>register<.soption>
@@ -15,4 +15,6 @@
 <option>side<.option>
 	<soption>smasm<.soption>
 	<soption>massd<.soption>
-
+<option>SMASS<.option>
+	<soption>.asda<.soption>
+	<soption>.asda<.soption>
