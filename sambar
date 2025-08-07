@@ -4,6 +4,8 @@
 <create_Min_button>
 <create_max_button>
 <create_tab_bar>
+<color>white<.color>
+
 <create_serials>3<.create_serials>
 <option>Main<.option>
 <option>side<.option>
@@ -18,4 +20,4 @@
 <option>SMASS<.option>
 	<soption>.asda<.soption>
 	<soption>.asda<.soption>
-
+<THEend>
