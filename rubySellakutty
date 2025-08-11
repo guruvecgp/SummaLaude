@@ -1,4 +1,6 @@
 # Ruby program to illustrate 
+#
+#
 # creation of threads
 
 #!/usr/bin/ruby 
@@ -38,6 +40,11 @@ def Geeks2
 
 end
 
+while b < 3
+	puts "S AS"
+	sleep(3)
+end
+
 # creating thread for first method
 x = Thread.new{Geeks1()}
 
@@ -54,5 +61,6 @@ x.join
 # to finish
 y.join
 
+'version' => 'v3.1',
 
 puts "Process End"

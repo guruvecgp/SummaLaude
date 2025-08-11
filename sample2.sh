@@ -8,4 +8,3 @@ else
 	echo "yuge hyukke"
 fi
 
-asmasm
