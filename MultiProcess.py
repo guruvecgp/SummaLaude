@@ -12,14 +12,14 @@ if __name__ == "__main__":
 
     # Create two Process objects
     process1 = multiprocessing.Process(target=worker_function, args=("One",))
-    process2 = multiprocessing.Process(target=worker_function, args=("Two",))
+    process3 = multiprocessing.Process(target=worker_function, args=("Two",))
 
     # Start the processes
     process1.start()
-    process2.start()
+    process3.start()
 
     # Wait for both processes to complete
     process1.join()
-    process2.join()
+    process3.join()
 
     print("Main process: All processes finished.")
