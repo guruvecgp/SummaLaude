@@ -12,6 +12,7 @@ public class Post
     public int Id { get; set; }
     public string Title { get; set; }
     public string Body { get; set; }
+    private int Sambar { get; set; }
 }
 
 public class RestApiClient
