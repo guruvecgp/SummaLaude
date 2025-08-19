@@ -14,5 +14,6 @@ puts "Main thread continuing while others run..."
 
 # Wait for all threads to complete before the main thread exits
 threads.each(&:join)
-
+puts "ASMMSMDSDS"
+gets abp
 puts "All threads have completed, main thread exiting."
