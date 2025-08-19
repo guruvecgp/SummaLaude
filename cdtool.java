@@ -13,6 +13,9 @@ public static void main(String[] args){
         int samba = 0;
         samba = thak.aska + thak.kuska;
         System.out.println("Sumnangatti " + samba);
+	String sambavam = "Simmada";
+        String subbamam = "SAMD";
+	System.out.println("SASNDA" + " " + sambavam + " " + subbamam );
 }
 }
 
