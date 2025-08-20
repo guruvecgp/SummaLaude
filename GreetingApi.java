@@ -18,5 +18,6 @@ public class GreetingController {
 public class static {
 void main string;
 int cont;
-
+int sample;
+double sambal;
 }
