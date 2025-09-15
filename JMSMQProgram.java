@@ -9,7 +9,6 @@ import javax.naming.InitialContext;
 import java.util.Hashtable;
 
 public class JMSMQProgram.java{
-
     public static void main(String[] args) {
         Connection connection = null;
         Session session = null;
