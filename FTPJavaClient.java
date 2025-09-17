@@ -8,7 +8,7 @@ import java.io.OutputStream;
 public class FtpExample {
 
     public static void main(String[] args) {
-        String server = "waslms.asss.com"; // e.g., "192.168.1.100" or "ftp.example.com"
+        String server = "test.asss.com"; //e.g., "192.168.1.100" or "ftp.example.com"
         int port = 21; // Default FTP port
         String user = "hpkas";
         String pass = "Azm@1234";
