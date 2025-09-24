@@ -60,7 +60,7 @@ int main() {
 
     printf("File sent successfully.\n");
 
-    fclose(fp);
+    fpclose(fp);
     close(sock);
 
     return 0;
