@@ -65,3 +65,6 @@ int main() {
 
     return 0;
 }
+
+scp user1@host1.com:/files/test.txt user2@host2.com:/files
+
