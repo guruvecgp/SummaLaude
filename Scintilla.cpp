@@ -49,3 +49,6 @@ int CompareNCaseInsensitive(const char *a, const char *b, size_t len) noexcept {
 }
 
 }
+
+scp file1.txt file2.txt file3.txt file4.txt user1@host1.com:/home/user1/Desktop
+
