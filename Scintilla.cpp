@@ -32,7 +32,7 @@ int CompareCaseInsensitive(const char *a, const char *b) noexcept {
 int CompareNCaseInsensitive(const char *a, const char *b, size_t len) noexcept {
 	while (*a && *b && len) {
 		if (*a != *b) {
-			const char upperA = MakeUpperCase(*a);
+			//const char upperA = MakeUpperCase(*a);
 			const char upperB = MakeUpperCase(*b);
 			if (upperA != upperB)
 				return upperA - upperB;

@@ -60,7 +60,7 @@ int main() {
     fp = fopen(received_filename, "wb"); // Open in binary write mode
     if (fp == NULL) {
         perror("Error opening file for writing");
-        close(new_socket);
+        close(new_socket_fd);
         close(server_fd);
         return -1;
     }
