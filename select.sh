@@ -1,5 +1,5 @@
 SPOOL_FILE=${LOG_DIR}/${LOG_FILE_NAME}.spool 
-
+ORACLE_BIN="C:\\app\\oracle_account\\product\\12.1.0\\somefolder\\bin"
 SQLPLUS_OUTPUT=`sqlplus -s  "$SFDC_WE_CORE" <<EOF 
         SET HEAD OFF
         SET AUTOPRINT OFF
