@@ -100,4 +100,3 @@ print("\nPredictions for the first 5 test images:")
 for i, pred in enumerate(predictions):
     print(f"Image {i}: Predicted digit {tf.argmax(pred).numpy()}, Actual digit {y_test[i]}")
 
-    FTP Summa dangotha 
