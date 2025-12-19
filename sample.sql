@@ -1,3 +1,8 @@
+#!/bin/ksh
+
+
+sql<
+
 SELECT
     c.customer_id,
     c.customer_name,

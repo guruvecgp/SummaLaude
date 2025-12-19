@@ -1,4 +1,4 @@
-import org.apache.commons.net.ftp.FTPClient;
+[GIO[Oimport org.apache.commons.net.ftp.FTPClient;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -61,3 +61,10 @@ public class FtpExample {
         }
     }
 }
+
+Guru prakash got trapped between two bastards who is making him really
+irritating
+I dont know when this bastard will rectify himself.
+especially that pig telling all his Business problem
+like who asked you to do all these business bullshits
+you started it yourself and now it feels pain in your fucking ass

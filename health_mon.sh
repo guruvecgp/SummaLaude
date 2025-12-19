@@ -1,11 +1,16 @@
 #!/bin/bash
 
-# Configuration
+# Confi
+# guration
+#autosys -j SMS-SEND-JOB -k asl
 THRESHOLD_CPU=80
 THRESHOLD_MEMORY=90
 LOG_FILE="/var/log/system_health.log"
 ALERT_EMAIL="admin@example.com"
-
+head=12e3e
+tail=q231
+echo $head
+echo $tail
 # Function to log messages
 log_message() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') - $1" >> "$LOG_FILE"
@@ -19,6 +24,20 @@ send_alert() {
     log_message "ALERT SENT: $SUBJECT - $MESSAGE"
 }
 
+printStackTrace()
+{
+	finally {
+            try {
+	    if (ftpClient.isConnected()) {
+                    ftpClient.logout();
+                    ftpClient.disconnect();
+                }
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+    }
+
+}
 # Check CPU usage
 check_cpu() {
     CPU_USAGE=$(top -bn1 | grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%*id.*/\1/" | awk '{print 100 - $1}')
@@ -41,4 +60,7 @@ check_memory() {
 log_message "Starting system health check."
 check_cpu
 check_memory
-log_message "System health check complete."
+l
+
+
+og_message "System health check complete."
