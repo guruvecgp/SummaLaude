@@ -61,10 +61,3 @@ public class FtpExample {
         }
     }
 }
-
-
-
-
-
-
-
